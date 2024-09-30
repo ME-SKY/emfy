@@ -138,7 +138,7 @@ document.addEventListener('click', (event) => {
 });
 
 document.addEventListener('DOMContentLoaded', async function() {
-  const data = await getAccessToken(integrationId, secretKey, authorizationCode);
+  const data = await getAccessToken(integrationId, secretKey, longTermToken);
   console.log('data', data);
   // fetchDeals
 });
